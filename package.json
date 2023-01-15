@@ -1,5 +1,5 @@
 {
-  "name": "@semantic-release-extras/monorepo-github-comment",
+  "name": "@semantic-release-extras/github-comment-specific",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/semantic-release-extras/monorepo-github-comment.git"
+    "url": "git+https://github.com/semantic-release-extras/github-comment-specific.git"
   },
   "files": [
     "dist/"
@@ -17,9 +17,9 @@
   "author": "Eric Crosson <eric.s.crosson@utexas.edu>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/semantic-release-extras/monorepo-github-comment/issues"
+    "url": "https://github.com/semantic-release-extras/github-comment-specific/issues"
   },
-  "homepage": "https://github.com/semantic-release-extras/monorepo-github-comment#readme",
+  "homepage": "https://github.com/semantic-release-extras/github-comment-specific#readme",
   "publishConfig": {
     "access": "public"
   },
