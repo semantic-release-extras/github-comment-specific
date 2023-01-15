@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.0...v1.0.1) (2023-01-15)
+
+
+### Bug Fixes
+
+* **docs:** add readme ([ce72900](https://github.com/semantic-release-extras/github-comment-specific/commit/ce72900bb2cb918c36e57e826dc6ee88336fa6a1))
+
 # 1.0.0 (2023-01-15)
 
 ### Bug Fixes
