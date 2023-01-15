@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.1...v1.0.2) (2023-01-15)
+
+
+### Bug Fixes
+
+* **docs:** shrink images ([b3a869f](https://github.com/semantic-release-extras/github-comment-specific/commit/b3a869f22d9a1b17ef51470dd16ed38d34ed1b13))
+
 ## [1.0.1](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.0...v1.0.1) (2023-01-15)
 
 
