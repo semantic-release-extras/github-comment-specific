@@ -16,13 +16,13 @@ it comments
 
 I agree, this seems like a small improvement. However, when using semantic-release with a multirepo[^1] the default behavior adds several comments like this to a PR:
 
-<img src="https://user-images.githubusercontent.com/1596818/212568167-24b6b93d-c773-4ba8-8b62-e1da383231e4.png" width="40%" height="40%">
+<img src="https://user-images.githubusercontent.com/1596818/212568167-24b6b93d-c773-4ba8-8b62-e1da383231e4.png" width="50%" height="50%">
 
 which is downright confusing.
 
 With **@semantic-release-extras/github-comment-specific**, the comments look like:
 
-<img src="https://user-images.githubusercontent.com/1596818/212568163-273a256a-1836-4d97-9a7e-621c9df5b723.png" width="40%" height="40%">
+<img src="https://user-images.githubusercontent.com/1596818/212568163-273a256a-1836-4d97-9a7e-621c9df5b723.png" width="50%" height="50%">
 
 Much better!
 
