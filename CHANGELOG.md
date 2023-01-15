@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.2...v1.0.3) (2023-01-15)
+
+
+### Bug Fixes
+
+* **docs:** resize images ([62d6d7a](https://github.com/semantic-release-extras/github-comment-specific/commit/62d6d7a4fcec006b59d34ff93624266a6bfcd494))
+
 ## [1.0.2](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.1...v1.0.2) (2023-01-15)
 
 
