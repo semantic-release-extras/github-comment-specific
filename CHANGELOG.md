@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.3...v1.0.4) (2023-01-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/rest to v19.0.7 ([0b071fc](https://github.com/semantic-release-extras/github-comment-specific/commit/0b071fcf8c4d79c88a8e065669be4ddf39ceafea))
+
 ## [1.0.3](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.2...v1.0.3) (2023-01-15)
 
 
