@@ -35,15 +35,6 @@ npm install --save-dev --save-exact @semantic-release-extras/github-comment-spec
 ## Use
 
 **@semantic-release-extras/github-comment-specific** is just a wrapper, so it inherits the API contract of [@semantic-release/github].
-Follow its docs:
-
-| Step               | Description                                                                                                                                                                                                                              |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `verifyConditions` | Verify the presence and the validity of the authentication (set via environment variables) and the assets option configuration.                                                                                                          |
-| `publish`          | Publish a [GitHub release](https://help.github.com/articles/about-releases), optionally uploading file assets.                                                                                                                           |
-| `addChannel`       | Update a [GitHub release](https://help.github.com/articles/about-releases)'s `pre-release` field.                                                                                                                                        |
-| `success`          | Add a comment to each [GitHub Issue](https://help.github.com/articles/about-issues) or [Pull Request](https://help.github.com/articles/about-pull-requests) resolved by the release and close issues previously open by the `fail` step. |
-| `fail`             | Open or update a [GitHub Issue](https://help.github.com/articles/about-issues) with information about the errors that caused the release to fail.                                                                                        |
 
 For example:
 
