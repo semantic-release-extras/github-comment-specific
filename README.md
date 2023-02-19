@@ -1,5 +1,9 @@
 # @semantic-release-extras/github-comment-specific
 
+[![Build Status]](https://github.com/semantic-release-extras/github-comment-specific/actions/workflows/release.yml)
+
+[build status]: https://github.com/semantic-release-extras/github-comment-specific/actions/workflows/release.yml/badge.svg?event=push
+
 This is a drop-in replacement for the standard [@semantic-release/github] plugin.
 It exists to add specificity to the GitHub issue and PR comments, so instead
 of commenting that
