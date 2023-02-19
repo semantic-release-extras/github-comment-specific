@@ -28,7 +28,7 @@ Much better!
 
 ## Install
 
-```
+```shell
 npm install --save-dev --save-exact @semantic-release-extras/github-comment-specific
 ```
 
