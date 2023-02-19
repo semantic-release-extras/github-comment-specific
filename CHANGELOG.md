@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.5...v1.0.6) (2023-02-19)
+
+
+### Bug Fixes
+
+* **deps:** use semver ranges ([334909e](https://github.com/semantic-release-extras/github-comment-specific/commit/334909e934b579c0d3b77018974b662afe7209db)), closes [#9](https://github.com/semantic-release-extras/github-comment-specific/issues/9)
+
 ## [1.0.5](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.4...v1.0.5) (2023-01-21)
 
 
