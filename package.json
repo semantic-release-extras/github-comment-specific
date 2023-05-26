@@ -32,7 +32,7 @@
   "devDependencies": {
     "@types/issue-parser": "3.0.1",
     "@types/lodash": "4.14.195",
-    "@types/node": "18.16.14",
+    "@types/node": "18.16.15",
     "typescript": "5.0.4"
   }
 }
