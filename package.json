@@ -30,7 +30,7 @@
     "issue-parser": "6.0.0"
   },
   "devDependencies": {
-    "@types/issue-parser": "3.0.1",
+    "@types/issue-parser": "3.0.2",
     "@types/lodash": "4.14.199",
     "@types/node": "18.18.0",
     "typescript": "5.2.2"
