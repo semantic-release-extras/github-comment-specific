@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.7...v1.0.8) (2023-11-03)
+
+
+### Bug Fixes
+
+* **deps:** update octokit monorepo ([1912f06](https://github.com/semantic-release-extras/github-comment-specific/commit/1912f0684826aa1387f83d8563b6ff3bf11f34dd))
+
 ## [1.0.7](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.6...v1.0.7) (2023-05-23)
 
 
