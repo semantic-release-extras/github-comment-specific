@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.8...v1.0.9) (2023-11-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/github to v9 ([a5489e3](https://github.com/semantic-release-extras/github-comment-specific/commit/a5489e30212dbeb38bb28b5b915da8bf3c8170ac))
+
 ## [1.0.8](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.7...v1.0.8) (2023-11-03)
 
 
