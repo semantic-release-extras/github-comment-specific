@@ -14,14 +14,14 @@ function getOctokit(token: string) {
     throttle: {
       onRateLimit: (retryAfter: number, options: any) => {
         console.warn(
-          `RateLimit detected for request ${options.method} ${options.url}.`
+          `RateLimit detected for request ${options.method} ${options.url}.`,
         );
         console.info(`Retrying after ${retryAfter} seconds.`);
         return true;
       },
       onSecondaryRateLimit: (retryAfter: number, options: any) => {
         console.warn(
-          `SecondaryRateLimit detected for request ${options.method} ${options.url}.`
+          `SecondaryRateLimit detected for request ${options.method} ${options.url}.`,
         );
         console.info(`Retrying after ${retryAfter} seconds.`);
         return true;
@@ -50,7 +50,7 @@ function getSearchQueries(base: string, commits: any[], separator = "+") {
 function parseGithubUrl(repositoryUrl: string): { owner: any; repo: any } {
   const [match, auth, host, path] =
     /^(?!.+:\/\/)(?:(?<auth>.*)@)?(?<host>.*?):(?<path>.*)$/.exec(
-      repositoryUrl
+      repositoryUrl,
     ) || [];
   try {
     const [, owner, repo] =
@@ -58,8 +58,8 @@ function parseGithubUrl(repositoryUrl: string): { owner: any; repo: any } {
         new URL(
           match
             ? `ssh://${auth ? `${auth}@` : ""}${host}/${path}`
-            : repositoryUrl
-        ).pathname
+            : repositoryUrl,
+        ).pathname,
       ) as any;
     return { owner, repo };
   } catch {
@@ -142,10 +142,10 @@ async function successPatched(pluginConfig: any, context: any) {
 
   const searchQueries = getSearchQueries(
     `repo:${owner}/${repo}+type:pr+is:merged`,
-    shas
+    shas,
   ).map(
     async (q: any) =>
-      (await octokit.rest.search.issuesAndPullRequests({ q })).data.items
+      (await octokit.rest.search.issuesAndPullRequests({ q })).data.items,
   );
 
   const prs = await pFilter(
@@ -159,10 +159,9 @@ async function successPatched(pluginConfig: any, context: any) {
         })
       ).data.find(({ sha }) => shas.includes(sha)) ||
       shas.includes(
-        (
-          await octokit.rest.pulls.get({ owner, repo, pull_number: number })
-        ).data.merge_commit_sha
-      )
+        (await octokit.rest.pulls.get({ owner, repo, pull_number: number }))
+          .data.merge_commit_sha,
+      ),
   );
 
   // debug(
@@ -180,9 +179,9 @@ async function successPatched(pluginConfig: any, context: any) {
           parser(message)
             .actions["close"]!.filter(
               (action) =>
-                isNil(action.slug) || action.slug === `${owner}/${repo}`
+                isNil(action.slug) || action.slug === `${owner}/${repo}`,
             )
-            .map((action) => ({ number: Number.parseInt(action.issue, 10) }))
+            .map((action) => ({ number: Number.parseInt(action.issue, 10) })),
         )
       : issues;
   }, []);
@@ -202,7 +201,7 @@ async function successPatched(pluginConfig: any, context: any) {
 
         if (releasedLabels) {
           const labels = releasedLabels.map((label: any) =>
-            template(label)(context)
+            template(label)(context),
           );
           // Don’t use .issues.addLabels for GHE < 2.16 support
           // https://github.com/semantic-release/github/issues/138
@@ -213,7 +212,7 @@ async function successPatched(pluginConfig: any, context: any) {
               repo,
               number: issue.number,
               data: labels,
-            }
+            },
           );
           logger.log("Added labels %O to issue #%d", labels, issue.number);
         }
@@ -221,23 +220,23 @@ async function successPatched(pluginConfig: any, context: any) {
         if (error.status === 403) {
           logger.error(
             "Not allowed to add a comment to the issue #%d.",
-            issue.number
+            issue.number,
           );
         } else if (error.status === 404) {
           logger.error(
             "Failed to add a comment to the issue #%d as it doesn't exist.",
-            issue.number
+            issue.number,
           );
         } else {
           errors.push(error);
           logger.error(
             "Failed to add a comment to the issue #%d.",
-            issue.number
+            issue.number,
           );
           // Don't throw right away and continue to update other issues
         }
       }
-    })
+    }),
   );
 }
 
