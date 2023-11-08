@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.0...v2.0.1) (2023-11-08)
+
+
+### Bug Fixes
+
+* start target with ./ ([e68c62c](https://github.com/semantic-release-extras/github-comment-specific/commit/e68c62cc06ee63f1401ce99464c8ff2c59b69c99))
+
 # [2.0.0](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.9...v2.0.0) (2023-11-08)
 
 
