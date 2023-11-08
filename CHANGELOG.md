@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.9...v2.0.0) (2023-11-08)
+
+
+* chore!: convert to an ES module ([9048706](https://github.com/semantic-release-extras/github-comment-specific/commit/90487061131af2bd6b7dc5bf2c2be1dce88326ef))
+
+
+### BREAKING CHANGES
+
+* **@semantic-release-extras/github-comment-specific** is
+now a native ES module.
+* The minimum-supported Node.js version is now Node.js 16.
+
 ## [1.0.9](https://github.com/semantic-release-extras/github-comment-specific/compare/v1.0.8...v1.0.9) (2023-11-03)
 
 

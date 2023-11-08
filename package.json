@@ -1,6 +1,6 @@
 {
   "name": "@semantic-release-extras/github-comment-specific",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "",
   "type": "module",
   "exports": "dist/index.js",
