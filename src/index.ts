@@ -1,10 +1,17 @@
-import { isNil, uniqBy, template, flatten, castArray } from "lodash";
+import { isNil, uniqBy, template, flatten, castArray } from "lodash-es";
 import { Octokit } from "@octokit/rest";
 import { throttling } from "@octokit/plugin-throttling";
 import issueParser from "issue-parser";
 
-const pFilter = require("p-filter");
-const plugin = require("@semantic-release/github");
+import pFilter from "p-filter";
+
+export {
+  verifyConditions,
+  publish,
+  addChannel,
+  fail,
+  // @ts-ignore
+} from "@semantic-release/github";
 
 const ThrottlingOctokit = Octokit.plugin(throttling);
 
@@ -97,7 +104,7 @@ Your **[semantic-release](${HOME_URL})** bot :package::rocket:`;
 }
 
 // Assumes the @semantic-release/github plugin has verified GitHub authentication
-async function successPatched(pluginConfig: any, context: any) {
+export async function success(pluginConfig: any, context: any) {
   const {
     options: { repositoryUrl },
     commits,
@@ -239,8 +246,3 @@ async function successPatched(pluginConfig: any, context: any) {
     }),
   );
 }
-
-module.exports = {
-  ...plugin,
-  success: successPatched,
-};

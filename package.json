@@ -2,7 +2,8 @@
   "name": "@semantic-release-extras/github-comment-specific",
   "version": "1.0.9",
   "description": "",
-  "main": "dist/index.js",
+  "type": "module",
+  "exports": "dist/index.js",
   "scripts": {
     "build": "tsc --build ."
   },
@@ -27,12 +28,17 @@
     "@octokit/plugin-throttling": "^8.0.0",
     "@octokit/rest": "^20.0.0",
     "@semantic-release/github": "^9.0.0",
-    "issue-parser": "6.0.0"
+    "issue-parser": "6.0.0",
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "@types/issue-parser": "3.0.4",
     "@types/lodash": "4.14.201",
+    "@types/lodash-es": "4.17.11",
     "@types/node": "20.9.0",
     "typescript": "5.2.2"
+  },
+  "engines": {
+    "node": ">= 16"
   }
 }
