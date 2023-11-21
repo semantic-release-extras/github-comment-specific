@@ -32,7 +32,7 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "@types/issue-parser": "3.0.4",
+    "@types/issue-parser": "3.0.5",
     "@types/lodash": "4.14.201",
     "@types/lodash-es": "4.17.11",
     "@types/node": "20.9.2",
