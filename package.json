@@ -35,7 +35,7 @@
     "@types/issue-parser": "3.0.5",
     "@types/lodash": "4.17.1",
     "@types/lodash-es": "4.17.12",
-    "@types/node": "20.12.11",
+    "@types/node": "20.12.12",
     "typescript": "5.4.5"
   },
   "engines": {
