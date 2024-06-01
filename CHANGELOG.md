@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.1...v2.0.2) (2024-06-01)
+
+
+### Bug Fixes
+
+* **deps:** update semantic-release monorepo ([c1d1361](https://github.com/semantic-release-extras/github-comment-specific/commit/c1d1361f69338169922ddf8d20761b41c1584711))
+
 ## [2.0.1](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.0...v2.0.1) (2023-11-08)
 
 
