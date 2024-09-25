@@ -27,7 +27,7 @@
   "dependencies": {
     "@octokit/plugin-throttling": "^9.0.0",
     "@octokit/rest": "^21.0.0",
-    "@semantic-release/github": "^10.0.0",
+    "@semantic-release/github": "^11.0.0",
     "issue-parser": "7.0.1",
     "lodash-es": "^4.17.21"
   },
