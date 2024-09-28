@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.3...v2.0.4) (2024-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/github to v11 ([83843c6](https://github.com/semantic-release-extras/github-comment-specific/commit/83843c654019397e53986473621faf7b377e3b5e))
+
 ## [2.0.3](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.2...v2.0.3) (2024-07-13)
 
 
