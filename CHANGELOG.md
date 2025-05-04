@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.4...v2.0.5) (2025-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @octokit/plugin-throttling to v10 ([e23920d](https://github.com/semantic-release-extras/github-comment-specific/commit/e23920d837accb1e142ae65c44f80a7ab52b8a59))
+
 ## [2.0.4](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.3...v2.0.4) (2024-09-28)
 
 
