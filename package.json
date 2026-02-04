@@ -29,7 +29,8 @@
     "@octokit/rest": "^22.0.0",
     "@semantic-release/github": "^12.0.0",
     "issue-parser": "7.0.1",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "p-filter": "^4.1.0"
   },
   "devDependencies": {
     "@types/issue-parser": "3.0.5",
