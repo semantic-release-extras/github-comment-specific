@@ -1,3 +1,10 @@
+## [2.0.9](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.8...v2.0.9) (2026-02-05)
+
+
+### Reverts
+
+* Revert "chore: modify repository field" ([8507509](https://github.com/semantic-release-extras/github-comment-specific/commit/8507509f4df75522024598ea9989dc1000ca3838))
+
 ## [2.0.8](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.7...v2.0.8) (2026-02-05)
 
 
