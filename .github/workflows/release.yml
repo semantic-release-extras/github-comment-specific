@@ -11,15 +11,14 @@ on:
       - alpha
       - "[0-9]+.[0-9]+.x"
       - "[0-9]+.x"
-
-permissions:
-  # Needed for npm Trusted Publishing
-  id-token: write
-  # Needed for semantic-release
-  contents: write
-  pull-requests: write
-  issues: write
+  workflow_dispatch:
 
 jobs:
   release:
-    uses: semantic-release-action/typescript/.github/workflows/release.yml@v3
+    uses: semantic-release-action/typescript/.github/workflows/release.yml@v4
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for npm provenance
+

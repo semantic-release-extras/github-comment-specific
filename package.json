@@ -22,8 +22,7 @@
   },
   "homepage": "https://github.com/semantic-release-extras/github-comment-specific#readme",
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "dependencies": {
     "@octokit/plugin-throttling": "^11.0.0",
