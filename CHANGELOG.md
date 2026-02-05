@@ -26,6 +26,13 @@
 
 * add explicit dependency on p-filter ([925262d](https://github.com/semantic-release-extras/github-comment-specific/commit/925262dac0d79aa606b98cd54df2f2e9067f1087))
 
+## [2.0.8](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.7...v2.0.8) (2026-02-05)
+
+
+### Bug Fixes
+
+* add explicit dependency on p-filter ([925262d](https://github.com/semantic-release-extras/github-comment-specific/commit/925262dac0d79aa606b98cd54df2f2e9067f1087))
+
 ## [2.0.9](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.8...v2.0.9) (2026-02-05)
 
 
