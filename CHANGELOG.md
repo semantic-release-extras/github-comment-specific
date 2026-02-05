@@ -4,6 +4,14 @@
 ### Bug Fixes
 
 * add explicit dependency on p-filter ([925262d](https://github.com/semantic-release-extras/github-comment-specific/commit/925262dac0d79aa606b98cd54df2f2e9067f1087))
+* specify registry in publishConfig ([58900e2](https://github.com/semantic-release-extras/github-comment-specific/commit/58900e2a1c08d4be30607f22fcbadf677dfedbfb))
+
+## [2.0.8](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.7...v2.0.8) (2026-02-05)
+
+
+### Bug Fixes
+
+* add explicit dependency on p-filter ([925262d](https://github.com/semantic-release-extras/github-comment-specific/commit/925262dac0d79aa606b98cd54df2f2e9067f1087))
 
 ## [2.0.8](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.7...v2.0.8) (2026-02-05)
 
