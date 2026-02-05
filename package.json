@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/semantic-release-extras/github-comment-specific#readme",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "@octokit/plugin-throttling": "^11.0.0",
