@@ -29,7 +29,7 @@
     "@octokit/plugin-throttling": "^11.0.0",
     "@octokit/rest": "^22.0.0",
     "@semantic-release/github": "^12.0.0",
-    "issue-parser": "7.0.1",
+    "issue-parser": "7.0.2",
     "lodash-es": "^4.17.21",
     "p-filter": "^4.1.0"
   },
