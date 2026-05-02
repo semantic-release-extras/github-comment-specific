@@ -1,3 +1,10 @@
+## [2.0.9](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.8...v2.0.9) (2026-05-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency issue-parser to v7.0.2 ([#311](https://github.com/semantic-release-extras/github-comment-specific/issues/311)) ([25d6284](https://github.com/semantic-release-extras/github-comment-specific/commit/25d62841e01ca3f6af940f44158bc7c73c1e2d52))
+
 ## [2.0.8](https://github.com/semantic-release-extras/github-comment-specific/compare/v2.0.7...v2.0.8) (2026-02-05)
 
 
